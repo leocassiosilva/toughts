@@ -3,7 +3,6 @@
 Aplicação web para **registro e compartilhamento de pensamentos**, desenvolvida com **Node.js**, **Express** e **Sequelize** usando **MySQL** como banco de dados.
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-toughts-blue?logo=github)](https://github.com/leocassiosilva/toughts)
-[![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](./LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-20+-green?logo=node.js)](https://nodejs.org)
 [![MySQL](https://img.shields.io/badge/Database-MySQL-blue?logo=mysql)](https://www.mysql.com/)
 
