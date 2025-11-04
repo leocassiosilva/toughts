@@ -1,0 +1,39 @@
+<div class="home-header">
+    {{#if search}}
+        <h2>Resultados para "{{search}}"</h2>
+        {{#if toughtsQty}}
+            <p>{{toughtsQty}} pensamento(s) encontrado(s)</p>
+        {{else}}
+            <p>Nenhum pensamento encontrado</p>
+        {{/if}}
+    {{else}}
+        <h2>Pensamentos</h2>
+    {{/if}}
+    <form action="/" method="GET">
+        <input type="text" name="search" placeholder="Pesquisar pensamento">
+        <input type="submit" class="btn" value="Buscar">
+    </form>
+    <div class="order-container">
+         <span>Ordenar por:</span>
+         <form action="/" method="GET">
+            <input type="hidden" name="search" value="{{this.search}}">
+            <input type="hidden" name="order" value="new">
+            <button type="submit"><i class="bi bi-arrow-up"></i></button>
+         </form>
+        <form action="/" method="GET">
+            <input type="hidden" name="search" value="{{this.search}}">
+            <input type="hidden" name="order" value="old">
+            <button type="submit"><i class="bi bi-arrow-down"></i></button>
+         </form>
+         <a href="/">Limpar filtros</a>
+    </div>
+</div>
+
+<div class="home-container">
+    {{#each toughts}}
+        <figure>
+            <blockquote>{{this.title}}</blockquote>
+            <figcaption>Por: {{this.User.name}}</figcaption>
+        </figure>
+    {{/each}}
+</div>

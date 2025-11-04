@@ -1,0 +1,11 @@
+<div class="auth-container">
+    <form action="/toughts/edit" method="POST">
+        <h2>Editar Pensamento</h2>
+        <input type="hidden" name="id" value="{{tought.id}}">
+        <div class="form-control">
+            <label for="title">Titulo:</label>
+            <input type="text" id="title" name="title" value="{{tought.title}}" required>
+        </div>
+        <input type="submit" value="Salvar Alterações">
+    </form>
+</div>
