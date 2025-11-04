@@ -81,3 +81,40 @@ npx sequelize-cli db:migrate
 ```bash
 npm start
 ```
+### 📁 Estrutura de Pastas
+
+- 📦 **toughts**
+  - 📂 **controllers/** → Lógica das rotas  
+  - 📂 **models/** → Modelos Sequelize (User, Thought)  
+  - 📂 **routes/** → Definição de rotas Express  
+  - 📂 **views/** → Templates Handlebars  
+  - 📂 **public/** → Arquivos estáticos (CSS, imagens)  
+  - 📂 **db/** → Configuração do banco de dados  
+  - 📜 **index.js** → Ponto de entrada da aplicação  
+  - 📜 **package.json**  
+  - 📜 **README.md**
+
+### 🧩 Scripts úteis
+
+| Comando | Descrição |
+|----------|------------|
+| `npm start` | Inicia o servidor com **nodemon** |
+| `npm install` | Instala todas as dependências |
+| `npm test` | Executa testes (se configurados) |
+
+---
+
+### 🧠 Como usar
+
+1. Acesse [http://localhost:3000](http://localhost:3000)  
+2. Crie um novo usuário  
+3. Faça login  
+4. Adicione, edite ou exclua pensamentos  
+5. Aproveite 🎯
+
+---
+
+### 👨‍💻 Autor
+
+**Leocassio Silva**  
+📂 GitHub: [@leocassiosilva](https://github.com/leocassiosilva)
