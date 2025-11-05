@@ -1,4 +1,4 @@
-# 🧠 Node Thoughts
+# 🧠Thoughts
 
 Aplicação web para **registro e compartilhamento de pensamentos**, desenvolvida com **Node.js**, **Express** e **Sequelize** usando **MySQL** como banco de dados.
 
